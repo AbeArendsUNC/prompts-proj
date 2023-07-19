@@ -26,12 +26,12 @@ const Nav = () => {
       <Link href="/" className = "flex gap-2 flex-center">
         <Image 
         src="/assets/images/logo.svg" 
-        alt="Prompt Machine Logo"
+        alt="Thought Tank Logo"
         width={30}
         height={30}
         className="object-contain"
         />
-        <p className="logo_text">Prompt Machine</p>
+        <p className="logo_text">Thought Tank</p>
       </Link>
 
       {/* Desktop Navigation */}
@@ -49,7 +49,7 @@ const Nav = () => {
 
             <Link href="/profile">
               <Image
-                src="/assets/images/logo.svg"
+                src={session?.user.image}
                 width={37}
                 height={37}
                 className="rounded-full"
@@ -79,7 +79,7 @@ const Nav = () => {
         {session?.user ? (
           <div className="flex">
             <Image
-                src="/assets/images/logo.svg"
+                src={session?.user.image}
                 width={37}
                 height={37}
                 className="rounded-full"

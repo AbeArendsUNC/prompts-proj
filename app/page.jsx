@@ -6,10 +6,10 @@ const Home = () => {
         <h1 className="head_text text-center">
             Discover & Share
             <br className="max-md:hidden" />
-            <span className="orange_gradient text-center"> AI-Powered Prompts</span>
+            <span className="orange_gradient text-center"> Your Horrible Takes</span>
         </h1>
         <p className="desc text-center">
-            Prompt machine is a completely legitimate, <em>ORIGINAL,</em> never-before seen tool you can use to see what absolutely vile shit your friends are using ChatGPT for.
+            Thought Tank is a free-to-use, shitty service that allows you to throw random ideas out there. Allow yourself the freedom to be completely judged on our 100% non-anonymous, data-stealing application :)
         </p>
 
         <Feed />
